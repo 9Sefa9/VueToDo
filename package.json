@@ -38,5 +38,17 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "This application is a simple to do list created with Vue.js.",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9Sefa9/VueToDo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9Sefa9/VueToDo/issues"
+  },
+  "homepage": "https://github.com/9Sefa9/VueToDo#readme"
 }
