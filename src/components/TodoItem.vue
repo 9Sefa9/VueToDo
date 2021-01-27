@@ -37,8 +37,8 @@ export default{
         text-decoration:line-through;
     }
     .del {
-        background: #ffa46f;
-        color:rgb(255, 181, 121);
+        background: #dd0000;
+        color:rgb(255, 255, 255);
         border:none;
         padding: 5px 9px;
         border-radius: 50%;
