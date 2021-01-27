@@ -2,19 +2,24 @@
   "name": "vuetodo",
   "version": "0.1.0",
   "private": true,
+  "description": "This application is a simple to do list created with Vue.js.",
+  "author": "",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "main": "babel.config.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "uuid": "^8.3.2",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.11",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
@@ -40,16 +45,13 @@
     "last 2 versions",
     "not dead"
   ],
-  "description": "This application is a simple to do list created with Vue.js.",
-  "main": "babel.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/9Sefa9/VueToDo.git"
-  },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/9Sefa9/VueToDo/issues"
   },
-  "homepage": "https://github.com/9Sefa9/VueToDo#readme"
+  "homepage": "https://github.com/9Sefa9/VueToDo#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9Sefa9/VueToDo.git"
+  }
 }
